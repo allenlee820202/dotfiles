@@ -94,3 +94,5 @@ bindkey "^[^?" backward-kill-word    # Option + Delete (delete one word left)
 bindkey "^[f" forward-word           # Option + Right
 bindkey "^[b" backward-word          # Option + Left
 
+
+export GPG_TTY=$(tty)
